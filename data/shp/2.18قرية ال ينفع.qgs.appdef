@@ -1,0 +1,210 @@
+{
+    "Base layers": [
+        "ESRI world imagery"
+    ], 
+    "Deploy": {
+        "GeoServer password": "geoserver", 
+        "GeoServer url": "http://localhost:8080/geoserver", 
+        "GeoServer username": "admin", 
+        "GeoServer workspace": "mywebapp", 
+        "PostGIS database": "database", 
+        "PostGIS host": "localhost", 
+        "PostGIS password": "postgres", 
+        "PostGIS port": "5432", 
+        "PostGIS schema": "mywebapp", 
+        "PostGIS username": "postgres"
+    }, 
+    "Groups": {
+        "Building": {
+            "layers": [
+                "\u0645\u0628\u0627\u0646\u064a"
+            ], 
+            "showContent": true
+        }, 
+        "Road": {
+            "layers": [
+                "\u0637\u0631\u0642"
+            ], 
+            "showContent": true
+        }, 
+        "Services_Utilities": {
+            "layers": [
+                "\u0645\u0645\u0631\u0627\u062a \u0627\u0644\u0645\u0634\u0627\u0629", 
+                "\u0634\u062f\u0627\u062e\u0629", 
+                "\u0622\u0628\u0627\u0631", 
+                "\u0627\u062d\u0648\u0627\u0634", 
+                "\u0623\u0631\u0627\u0636\u064a \u0641\u0636\u0627\u0621", 
+                "\u0623\u0633\u0648\u0627\u0631", 
+                "\u062e\u0632\u0627\u0646 \u0645\u064a\u0627\u0647", 
+                "\u0633\u0627\u062d\u0627\u062a", 
+                "\u0645\u0632\u0627\u0631\u0639"
+            ], 
+            "showContent": true
+        }
+    }, 
+    "Layers": [
+        {
+            "allowSelection": true, 
+            "clusterColor": "#3399CC", 
+            "clusterDistance": 0, 
+            "layer": "\u0645\u0645\u0631\u0627\u062a \u0627\u0644\u0645\u0634\u0627\u0629", 
+            "method": 0, 
+            "popup": "", 
+            "showInControls": true, 
+            "showInOverview": true, 
+            "singleTile": false, 
+            "timeInfo": null, 
+            "visible": true
+        }, 
+        {
+            "allowSelection": true, 
+            "clusterColor": "#3399CC", 
+            "clusterDistance": 0, 
+            "layer": "\u0634\u062f\u0627\u062e\u0629", 
+            "method": 0, 
+            "popup": "", 
+            "showInControls": true, 
+            "showInOverview": true, 
+            "singleTile": false, 
+            "timeInfo": null, 
+            "visible": true
+        }, 
+        {
+            "allowSelection": true, 
+            "clusterColor": "#3399CC", 
+            "clusterDistance": 0, 
+            "layer": "\u0622\u0628\u0627\u0631", 
+            "method": 0, 
+            "popup": "", 
+            "showInControls": true, 
+            "showInOverview": true, 
+            "singleTile": false, 
+            "timeInfo": null, 
+            "visible": true
+        }, 
+        {
+            "allowSelection": true, 
+            "clusterColor": "#3399CC", 
+            "clusterDistance": 0, 
+            "layer": "\u0627\u062d\u0648\u0627\u0634", 
+            "method": 0, 
+            "popup": "", 
+            "showInControls": true, 
+            "showInOverview": true, 
+            "singleTile": false, 
+            "timeInfo": null, 
+            "visible": true
+        }, 
+        {
+            "allowSelection": true, 
+            "clusterColor": "#3399CC", 
+            "clusterDistance": 0, 
+            "layer": "\u0623\u0631\u0627\u0636\u064a \u0641\u0636\u0627\u0621", 
+            "method": 0, 
+            "popup": "", 
+            "showInControls": true, 
+            "showInOverview": true, 
+            "singleTile": false, 
+            "timeInfo": null, 
+            "visible": true
+        }, 
+        {
+            "allowSelection": true, 
+            "clusterColor": "#3399CC", 
+            "clusterDistance": 0, 
+            "layer": "\u0623\u0633\u0648\u0627\u0631", 
+            "method": 0, 
+            "popup": "", 
+            "showInControls": true, 
+            "showInOverview": true, 
+            "singleTile": false, 
+            "timeInfo": null, 
+            "visible": true
+        }, 
+        {
+            "allowSelection": true, 
+            "clusterColor": "#3399CC", 
+            "clusterDistance": 0, 
+            "layer": "\u062e\u0632\u0627\u0646 \u0645\u064a\u0627\u0647", 
+            "method": 0, 
+            "popup": "", 
+            "showInControls": true, 
+            "showInOverview": true, 
+            "singleTile": false, 
+            "timeInfo": null, 
+            "visible": true
+        }, 
+        {
+            "allowSelection": true, 
+            "clusterColor": "#3399CC", 
+            "clusterDistance": 0, 
+            "layer": "\u0633\u0627\u062d\u0627\u062a", 
+            "method": 0, 
+            "popup": "", 
+            "showInControls": true, 
+            "showInOverview": true, 
+            "singleTile": false, 
+            "timeInfo": null, 
+            "visible": true
+        }, 
+        {
+            "allowSelection": true, 
+            "clusterColor": "#3399CC", 
+            "clusterDistance": 0, 
+            "layer": "\u0645\u0632\u0627\u0631\u0639", 
+            "method": 0, 
+            "popup": "", 
+            "showInControls": true, 
+            "showInOverview": true, 
+            "singleTile": false, 
+            "timeInfo": null, 
+            "visible": true
+        }, 
+        {
+            "allowSelection": true, 
+            "clusterColor": "#3399CC", 
+            "clusterDistance": 0, 
+            "layer": "\u0637\u0631\u0642", 
+            "method": 0, 
+            "popup": "", 
+            "showInControls": true, 
+            "showInOverview": true, 
+            "singleTile": false, 
+            "timeInfo": null, 
+            "visible": true
+        }, 
+        {
+            "allowSelection": true, 
+            "clusterColor": "#3399CC", 
+            "clusterDistance": 0, 
+            "layer": "\u0645\u0628\u0627\u0646\u064a", 
+            "method": 0, 
+            "popup": "", 
+            "showInControls": true, 
+            "showInOverview": true, 
+            "singleTile": false, 
+            "timeInfo": null, 
+            "visible": true
+        }
+    ], 
+    "Settings": {
+        "Add permalink functionality": true, 
+        "App view CRS": "EPSG:3857", 
+        "Extent": "Canvas extent", 
+        "Group base layers": true, 
+        "Logo": "", 
+        "Max zoom level": "32", 
+        "Min zoom level": "1", 
+        "Minify JavaScript": false, 
+        "Open hyperlinks in": "Same window/tab", 
+        "Precision for GeoJSON export": "2", 
+        "Restrict to extent": false, 
+        "Show popups on hover": false, 
+        "Theme": "basic", 
+        "Title": "My Web App", 
+        "Use JSONP for WFS connections": true, 
+        "Use layer scale dependent visibility": true, 
+        "Use view CRS for WFS connections": true
+    }, 
+    "Widgets": {}
+}
