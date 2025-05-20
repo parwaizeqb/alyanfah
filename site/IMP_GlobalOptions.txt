@@ -1,0 +1,38 @@
+edit
+
+GlobalOptions.js
+
+
+var enableGoogleCommercialMaps = true;
+
+
+var enableOSMMaps = true;
+
+
+enableBGMaps = true;
+
+
+
+make true as false
+
+
+------------------------------------
+
+var authid = "EPSG:"+3857;
+
+var authid = "EPSG:"+32637;
+
+
+-------------------------------------
+
+var titleBarText
+
+-------------------------------------
+edit for header font
+
+qgisweblient.html
+
+#panel_header_title {
+  float: left;
+  font-size: 24px;
+}

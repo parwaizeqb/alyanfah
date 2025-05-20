@@ -1,0 +1,63 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+  <head>
+    <title>QGIS Mapserver Client</title>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8"/>
+    <!-- Framework CSS --> 
+    <link rel="stylesheet" href="css/blueprint/screen.css" type="text/css" media="screen, projection"> 
+    <link rel="stylesheet" href="css/blueprint/print.css" type="text/css" media="print"> 
+    <!--[if lt IE 8]><link rel="stylesheet" href="css/blueprint/ie.css" type="text/css" media="screen, projection">
+	<![endif]--> 
+    
+    <!-- Import fancy-type plugin for the sample page. --> 
+    <link rel="stylesheet" href="css/blueprint/plugins/fancy-type/screen.css" type="text/css" media="screen, projection"> 
+    <!-- Tims styles on top of blueprint -->
+    <link rel="stylesheet" href="css/style.css" type="text/css" media="screen, projection"> 
+  	</head>
+  <body style="background-color: #FF9900">
+    <div class="container">
+      <div class="span-16">
+        <h2 class="alt">Default Client Landing Page</h2> 
+      	<h1><font size="6"><span style="background-color: #FFFF00">Web Client (العميل على شبكة الإنترنت)</span></font></h1>
+      </div>
+      <div class="span-6 last">
+        <a href="http://qgis.org"><img src="img/beeah.png" alt="QGIS icon"/></a>
+      </div>
+      <hr>
+      <div class="span-18 colborder">
+        <h2>About this <font color="#800000">page</font></h2>
+        <p>This is a default page provided when you install QGIS Web Client. The default installation assumes that you checkout the QGIS Web Client from <a href="https://github.com/qgis/qgis-web-client/">github</a> into the directory "/home/web/qgis-web-client". To start with the client configuration, please copy one of the "site/js/GlobalOptions.js.templ" template files into "site/js/GlobalOptions.js". If you use different paths, please adjust them accordingly on this landing page (site/index.html) and in the file "site/js/GlobalOptions.js". You will also have to install QGIS Server (FCGI) and Apache with the FCGID module. You will have to configure Apache for FCGI use any your document locations.</p>
+        <h2>Web Maps (خرائط على شبكة الإنترنت)</h2>
+         <form name="form1">
+&nbsp;<p>&nbsp;</p>
+<p>
+<select name="menu1" id="menu1">
+<option disabled selected value> -- Select a Map -- </option>
+<option value="qgiswebclient.html?map=C:/OSGeo4W/apache/htdocs/QGIS-Web-Client-master/projects/building/A Baha University.qgs"">جامعة الباخة كلية التربية - الدور الأرضي (طلاب)</option>
+<option value="http://www1.cnn.com">Map2</option>
+<option value="http://www1.abcnews.com">Map3</option>
+<option value="http://www1.cbsnews.com">Map3</option>
+<option value="http://www1.foxnews.com">Map4</option>
+</select>
+<script type="text/javascript">
+ var urlmenu = document.getElementById( 'menu1' );
+ urlmenu.onchange = function() {
+      window.open(  this.options[ this.selectedIndex ].value );
+ };
+</script>
+        </p>
+<div>
+          <b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+			This Client is Based on OpenLayers , ExtJS and GeoExt</b></div>
+      	</form>
+		<p>&nbsp;</p>
+		<p>&nbsp;</p>
+		<p>&nbsp;</p>
+		<p>bvbcvbcbv</p>
+		<p>&nbsp;</p>
+		<p>&nbsp;</p>
+        <div>
+         &nbsp;</div>
+    </div>
+  </body>
+</html>
