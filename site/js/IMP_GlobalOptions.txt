@@ -1,0 +1,86 @@
+edit
+
+GlobalOptions.js
+
+
+var enableGoogleCommercialMaps = true;
+
+
+var enableOSMMaps = true;
+
+
+enableBGMaps = true;
+
+
+
+make true as false
+
+
+------------------------------------
+
+var authid = "EPSG:"+3857;
+
+var authid = "EPSG:"+32637;
+
+
+-------------------------------------
+
+var titleBarText
+
+-------------------------------------
+edit for header font
+
+qgisweblient.html
+
+#panel_header_title {
+  float: left;
+  font-size: 24px;
+}
+
+
+var ZOOM_LEVELS = 26;
+---------------------------------------
+
+//language switcher in qgiswebclient.html
+var enableLangSwitcher = true;
+
+replace with
+var enableLangSwitcher = false;
+
+---------------------------------------
+
+//  title: "Search continent",
+
+---------------------------------------
+//  title: "Search letter",
+---------------------------------------
+      fieldLabel: "Name1",
+---------------------------------------
+      fieldLabel: "Colour1",
+
+---------------------------------------
+
+// xtype: 'textfield',
+
+
+mapSearchPanelConfigs[project_map] = [simpleWmsSearch, urlRewriteSearch];
+
+remark this as
+
+// mapSearchPanelConfigs[project_map] = [simpleWmsSearch, urlRewriteSearch];
+---------------------------------------
+
+to show osm layer in overviewmap
+
+
+if (enableOSMMaps) {
+  overviewLayer = new OpenLayers.Layer.OSM();
+
+change syntax
+
+if (enableGoogleCommercialMaps) {
+  overviewLayer = new OpenLayers.Layer.OSM();
+
+
+
+
